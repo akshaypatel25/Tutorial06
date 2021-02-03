@@ -58,7 +58,10 @@ public class welcome extends AppCompatActivity {
 
         switch (id){
             case R.id.logout:
+
                 Toast.makeText(this, "Loggedout", Toast.LENGTH_SHORT).show();
+
+
                 Intent intent  = new Intent(welcome.this,login.class);
                 startActivity(intent);
                 finish();
